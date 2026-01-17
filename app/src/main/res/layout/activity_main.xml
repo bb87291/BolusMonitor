@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bolus Monitor"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="#212121"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Insulin Injection Tracker"
+        android:textSize="16sp"
+        android:textColor="#757575"
+        android:layout_marginBottom="48dp" />
+
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Status: Stopped"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#E53935"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/btnStartStop"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:text="START"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:background="#4CAF50"
+        android:layout_marginBottom="48dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#E0E0E0"
+        android:layout_marginBottom="24dp" />
+
+    <TextView
+        android:id="@+id/tvLastTimestamp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Last Bolus: None"
+        android:textSize="16sp"
+        android:textColor="#424242"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/tvLastCheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Last Check: Never"
+        android:textSize="16sp"
+        android:textColor="#424242"
+        android:layout_marginBottom="32dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="📡 Checking API every 5 minutes"
+        android:textSize="14sp"
+        android:textColor="#9E9E9E"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="http://127.0.0.1:17580"
+        android:textSize="12sp"
+        android:textColor="#BDBDBD"
+        android:layout_marginTop="8dp" />
+
+</LinearLayout>
